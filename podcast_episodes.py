@@ -62,12 +62,9 @@ def podcast_summary():
             print(os.path.abspath(audio_path))
             if not os.path.exists(audio_path):
                 print(f"Downloading... {filename}")
-                # audio = requests.get(episode["enclosure"]["@url"])
-                # with open(audio_path, "wb+") as f:
-                #     f.write(audio.content)
+                audio = requests.get(episode["enclosure"]["@url"])
+                with open(audio_path, "wb+") as f:
+                    f.write(audio.content)
     download_episodes(podcast_episodes)
     
 summary = podcast_summary()
-
-
-# \\wsl.localhost\Ubuntu\home\guddu\Projects\Airflow\twitter_etl.py
