@@ -32,7 +32,7 @@ This project involves creating a data pipeline using Apache Airflow to automate 
    - Deploy the Airflow pipeline on a production server or cloud environment.
    - Set up monitoring and alerting to track the pipeline's health and performance.
 
-### Code <a href="https://github.com/JayPurohit044/Airflow-Project" target="_blank">Visit GitHub</a>
+### <a href="https://github.com/JayPurohit044/Airflow-Project" target="_blank">Checkout code here</a>
 
 ### Conclusion
 
