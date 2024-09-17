@@ -34,6 +34,10 @@ This project involves creating a data pipeline using Apache Airflow to automate 
 
 ### <a href="https://github.com/JayPurohit044/Airflow-Project" target="_blank">Checkout code here</a>
 
+### Data
+
+Following dataset was used for building this project <a href="https://www.marketplace.org/feed/podcast/marketplace/" target="_blank">Preview dataset</a>
+
 ### Conclusion
 
 This project leverages Apache Airflow to create a robust and automated data pipeline for podcast transcription. By integrating speech recognition and SQLite, the pipeline provides a scalable solution for managing and querying podcast transcriptions, making it easier to analyze and utilize audio content.
